@@ -7,63 +7,50 @@ name = "flexmerge"
 version = "0.1.0"
 description = "A simple and intuitive dictionary merging library"
 readme = "README.md"
-license = {text = "MIT"}
+license = "MIT"
 authors = [
     {name = "Your Name", email = "your.email@example.com"}
 ]
 maintainers = [
     {name = "Your Name", email = "your.email@example.com"}
 ]
-keywords = ["dictionary", "merge", "dict", "combine", "data"]
+keywords = ["dictionary", "merge", "dict", "data-structures", "python"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
-    "Programming Language :: Python :: 3.13",
     "Topic :: Software Development :: Libraries :: Python Modules",
     "Topic :: Utilities",
-    "Typing :: Typed",
 ]
-requires-python = ">=3.10"
+requires-python = ">=3.8"
 dependencies = []
 
 [project.optional-dependencies]
 test = [
     "pytest>=7.0.0",
     "pytest-cov>=4.0.0",
-    "pytest-mock>=3.10.0",
     "pytest-xdist>=3.0.0",
     "black>=23.0.0",
-    "ruff>=0.1.0",
     "mypy>=1.5.0",
 ]
 dev = [
-    "pytest>=7.0.0",
-    "pytest-cov>=4.0.0",
-    "pytest-mock>=3.10.0",
-    "pytest-xdist>=3.0.0",
-    "black>=23.0.0",
-    "ruff>=0.1.0",
-    "mypy>=1.5.0",
-    "pre-commit>=3.0.0",
-]
-docs = [
-    "sphinx>=7.0.0",
-    "sphinx-rtd-theme>=1.3.0",
+    "build>=0.10.0",
+    "twine>=4.0.0",
+    "bump2version>=1.0.0",
 ]
 
 [project.urls]
 Homepage = "https://github.com/yourusername/flexmerge"
-Documentation = "https://flexmerge.readthedocs.io/"
+Documentation = "https://github.com/yourusername/flexmerge#readme"
 Repository = "https://github.com/yourusername/flexmerge.git"
-"Bug Tracker" = "https://github.com/yourusername/flexmerge/issues"
-Changelog = "https://github.com/yourusername/flexmerge/blob/main/CHANGELOG.md"
+Issues = "https://github.com/yourusername/flexmerge/issues"
+Changelog = "https://github.com/yourusername/flexmerge/releases"
 
 [tool.setuptools.packages.find]
 where = ["."]
