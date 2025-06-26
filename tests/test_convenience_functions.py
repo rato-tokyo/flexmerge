@@ -2,7 +2,7 @@
 
 import pytest
 
-from dictmerge.merger import merge, merge_shallow, merge_unique
+from flexmerge.merger import merge, merge_shallow, merge_unique
 
 
 class TestConvenienceFunctions:

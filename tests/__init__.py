@@ -1,1 +1,1 @@
-# Test package for dictmerge
+# Test package for flexmerge

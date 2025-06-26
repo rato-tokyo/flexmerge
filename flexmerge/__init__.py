@@ -1,5 +1,5 @@
 """
-dictmerge - A simple and intuitive dictionary merging library
+flexmerge - A simple and intuitive dictionary merging library
 
 This library provides a clean API for merging dictionaries with customizable
 strategies for handling lists, nested dictionaries, and other data types.

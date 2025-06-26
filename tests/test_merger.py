@@ -4,7 +4,7 @@ from typing import Any
 
 import pytest
 
-from dictmerge import BuiltinDictStrategies, BuiltinListStrategies, Merger
+from flexmerge import BuiltinDictStrategies, BuiltinListStrategies, Merger
 
 
 class TestMergerBasics:

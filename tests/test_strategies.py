@@ -2,7 +2,7 @@
 
 import pytest
 
-from dictmerge.strategies import (
+from flexmerge.strategies import (
     BUILTIN_DICT_STRATEGIES,
     BUILTIN_LIST_STRATEGIES,
     BuiltinDictStrategies,
